@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contener{
+    height: 770px;
+    min-height: 500px;
+    width: auto;
+    /* background-color: rgb(155, 175, 241); */
+    text-align: center;
+    padding-top: 190px;
+    align-items: center;
+}
+
+.button{
+    height: 80px;
+    padding-top: 0;
+    /* background-color: azure; */    
+}
+
+.ahover  {
+    color: rgb(34, 63, 223);
+    cursor: pointer;
+}
+
+.ahover:hover {
+    color: rgb(29, 54, 197);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.inputs {
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    color: black;
+    padding: 0;
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.boxinput {
+    height: 44px;
+    width: 582px;
+    min-width: 1px;
+    margin: auto;
+    padding-right: 10px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxinput:hover {
+    border: none;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 2px 10px rgb(172, 172, 172);
+}
+
+.boxinput .focusInput {
+    border: none;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 10px rgb(223, 223, 223);
+}
+
+.flexs {
+    margin: 10px;
+    width: auto;
+    display: flex;
+}
+.button-bottom {
+    outline: none;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    height: 34px;
+    width: auto;
+    padding: 0 15px;
+    margin: 30px 8px;
+    cursor: pointer;
+}
+
+.pad-10 {
+    padding-left: 20px;
+}
+
+.fix-size-h{
+    height: 15px;
+    width: auto;
+}
+
+.fix-size-s{
+    height: 25px;
+    width: auto;
+}
+
+.icon-left{
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-right: 25px;
+}
+
+.icon-right{
+    padding-top: 1.5px;
+}
+
+.mic {
+    padding-top: 0;
+}
+
+.text-box {
+    height: auto;
+    width: auto;
+}
+
+.textlayout {
+    color: rgb(73, 73, 73);
+    font-size: 85px;
+    margin-bottom: 26px;
+    cursor: default;
+}

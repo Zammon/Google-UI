@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contaner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.contan{
+    font-size: 13px;
+    width: auto;
+    height: auto;
+    padding: 20px 18px 0 0;
+}
+
+.contan:hover{
+    text-decoration: underline;
+}
+
+.contanMenu{
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    /*background-color: bisque; */
+}
+
+.contanMenu:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.contanProfile{
+    padding: 11px 18px 0 0;
+}
+
+.contanProfile :hover{
+    outline: solid 4px rgb(214, 214, 214);
+}
+
+img {
+
+    height: 35px;
+    width: auto;
+}
+
+.icon {
+    margin: 10px 10px;
+    height: 16px;
+}
+
+
+.profile{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.index {
+    height: 50px;
+    width: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+}
