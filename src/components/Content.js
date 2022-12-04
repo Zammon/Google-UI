@@ -23,7 +23,7 @@ function Content(){
                 </div>
             </div>
             <div className="button">
-                <button className="button-bottom" type="submit">ค้นหาด้วย Google</button>
+                <button className="button-bottom" type="submit">ค้นหาด้วย Googles</button>
                 <button className="button-bottom" type="submit">ดีใจจัง ค้นแล้วเจอเลย</button>
             </div>
             <div className="text-box">แสดง Google ใน: <a className="ahover">Englisg</a> </div>
